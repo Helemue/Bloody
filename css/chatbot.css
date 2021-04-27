@@ -1,0 +1,276 @@
+
+.background{
+    /*width:900px;
+    left: 50%;
+    margin-left:-450px;
+    position:absolute;
+    height:704px;*/
+    padding:0px;
+    margin-top:50px;
+    max-width:768px;
+    background-color: #00305e;
+    color:white;
+    text-align: left;
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+    border:solid 10px #00305e;
+    border-radius: 20px;
+}
+
+.alertDiv{
+    font-size:20px;
+    text-align: center;
+}
+
+.gaCarousel{
+
+}
+
+.gaCarouselItem{
+}
+
+.gaSimpleResponse{
+    /*font-size:14px;
+    padding:5px;
+    margin:5px;
+    max-width: 300px;*/
+}
+
+.gaSuggestionChipRow{
+    margin: 10px;
+    padding:5px;
+}
+
+.gaSuggestionChipButton{
+  color: black;
+  height:40px;
+  margin:3px;
+  border-radius: 20px;
+  border: 1px lightgray;
+  background-color:lightgrey;
+  cursor: pointer
+}
+
+.gaSuggestionChipButton:hover{
+  background-color: silver;
+  border:solid 1px lightgray;
+}
+
+.gaListHeader{
+    text-align:center;
+    font-size:18px;
+}
+
+.gaListGroup{
+    max-width:350px;
+}
+
+.gaListItem{
+    cursor:pointer;
+}
+
+.gaCard{
+}
+
+.gaCardText{
+    font-size:14px;
+}
+
+.gaCardImage{
+    display: block;
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gaLinkOutSuggestion{
+    max-width: 300px;
+}
+
+.textResponse{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    border:solid 1px black;
+    max-width:450px;
+    color: black;
+}
+
+div.textResponse p {
+    margin-bottom: 0px;
+}
+
+div.textResponse img {
+    display: block;
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.chatWindow{
+    display:block;
+    background-color: white;
+    /* left: 50%;
+    margin-left: -450px;
+    width:900px;
+    position:absolute;
+    top:100px; */
+    height:600px;
+    overflow-y: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bot-answer-container{
+    border-radius: 5px;
+    margin: 10px;
+    padding:5px;
+    border:solid 1px black;
+    background-color: lightgray;
+}
+
+.bot-answer-row{
+    display:inline-block;
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+
+.bot-answer-container-inner{
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+}
+
+.card-text-container-div{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.rounded-div-bot{
+    display:inline-block;
+    clear:left;
+    /*max-width:80%;*/
+    border-radius: 5px;
+    background-color: #b2ff59;
+    float:right;
+    margin: 10px;
+    padding:5px;
+    min-height: 1em;
+    /*max-width: 350px;*/
+}
+.rounded-div{
+    display:inline-block;
+    clear:left;
+    max-width:450px;
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    border:solid 1px lightgray;
+    background-color:lightgray;
+    float:right;
+    color: black;
+}
+
+.inputbox{
+    /*left: 50%;
+    outline:none;
+    width:780px;
+    top:700px;
+    position:fixed;*/
+    width:100%;
+    height:40px;
+    border:1px white;
+    border-radius: 20px;
+    padding-left:10px;
+}
+
+.basic-card{
+  border-radius: 20px;
+  padding: 10px;
+  border:solid 1px black;
+  max-width:450px;
+  margin: 10px;
+  color: black;
+}
+
+.fontStyle{
+    font-size:14px;
+}
+
+.sendbutton {
+  /*left: 50%;
+  margin-left: 350px;
+  width:90px;
+  top:700px */
+  width:105px;
+  min-width:40px;
+  height:40px;
+  border-radius: 20px;
+  border: 1px lightgray;
+  background-color:lightgrey;
+  position:fixed;
+  cursor: pointer
+}
+
+.sendbutton:hover{
+  background-color: silver;
+  border:solid 1px lightgray;
+}
+
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.divEndMessage{
+    margin:0 auto;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+@keyframes blink{
+  50%{
+    color: transparent
+  }
+}
+
+.loader__dot{
+  animation: 1s blink infinite
+}
+
+.loader__dot:nth-child(2){
+  animation-delay: 250ms
+}
+
+.loader__dot:nth-child(3){
+  animation-delay: 500ms
+}
+
+.bot_image{
+  width: 38px;
+  height: 38px;
+}
+
+.float-right {
+    float: right;
+}
+/*
+.progress {
+    height: 25px !important;
+}*/

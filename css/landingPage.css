@@ -1,0 +1,36 @@
+.bg-1 {
+  background-color: #00305E; /*primary color CD TU Dresden*/
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-2 {
+  background-color: white;
+  color: #555555;
+}
+
+.container-fluid {
+  padding: 60px;
+}
+
+/* Buttons */
+.button {
+  background-color: #00305E;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: solid 2px #00305E;
+}
+
+.button:hover {
+  color: white;
+  background-color: #005ab1;
+  border-color: transparent;
+  filter: drop-shadow(0 0 5px #333);
+  transition: background-color .2s linear, filter .2s linear;
+}
+
+.button:focus {
+  outline: none;
+}

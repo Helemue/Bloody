@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": 1,
+    "question_text": " 1. Wie lautet die Antwort auf die erste Frage?",
+    "answer_options":{
+        "a": "ohne Vergütung",
+        "b": "42",
+        "c": "nach der Umfrage"
+      },
+    "answer_correct": "b"
+  },
+  {
+    "question_id": 2,
+    "question_text": " 2. Wie lautet die Antwort auf die zweite Frage?",
+    "answer_options":{
+        "a": "nach der Umfrage",
+        "b": "ohne Vergütung",
+        "c": "42"
+      },
+    "answer_correct": "c"
+  },
+  {
+    "question_id": 3,
+    "question_text": "3. Wie lautet die Antwort auf die dritte Frage?",
+    "answer_options":{
+        "a": "42",
+        "b": "ohne Vergütung",
+        "c": "nach der Umfrage"
+      },
+    "answer_correct": "a"
+  }
+]

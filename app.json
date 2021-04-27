@@ -1,0 +1,5 @@
+{
+  "name": "academic chatbot app",
+  "description": "A web chat client for Dialogflow to be used in academic experiments",
+  "keywords": ["PHP", "rich website chatbot", "Dialogflow"]
+}
