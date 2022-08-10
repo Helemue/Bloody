@@ -2,7 +2,7 @@
 session_start();
 
 // please change password
-$passwort = "ptGhpX9PF47kc";
+$passwort = "bloody-app";
 
 if (isset($_POST['go'])){
   $check = $_POST["password"];
